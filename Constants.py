@@ -1,0 +1,20 @@
+class Constants:
+    screen = "clock"
+    weather = "wait||||"
+    bitcoinPrice = "n/a"
+    bg_color = None
+    alarm = [True, 0, 0]
+    alarmStopped = False
+    alarmTemp = [alarm[0], alarm[1], alarm[2]]
+    voltageBattery = 5.00
+    sensors_data = ['SENSORS', '--', '--', '20', '0.00']
+    clickStop = 0
+    timer_alarm = 31
+    timer_weather = 0
+    timer_bitcoin = 0
+    timer_voltage = 0
+    timer_sensors = 0
+    timer_config = 0
+    timer_led = 0
+    timer_batt_sound = 0
+    timer_batt_blink = 0
